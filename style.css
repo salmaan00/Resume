@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+image{
+	height: 100%;
+	width: 100vw;
+	alt: "gfg-logo";
+}
+p{
+	color:rgb(0, 0, 0);
+}
+body {
+	background-color: rgb(34, 35, 36);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(4, 32, 36);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: rgb(226, 239, 240);
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+h2 {
+	background-color: rgb(227, 239, 245);
+}
+h2{
+	color: rgb(3, 11, 48);
+}
